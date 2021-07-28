@@ -19,3 +19,6 @@ console.log(8 ** 2);
 
 // PEMDAS
 // 1. () 2. ** 3. * 4. / 5. + 6. - (The order in which you do first)
+
+// NaN (Not A Number)
+console.log(0 / 0);

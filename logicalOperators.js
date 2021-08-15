@@ -59,5 +59,6 @@ x == 7 || x === 3 && x > 10;
 // && takes precedence over ||
 
 // NOT (!) has a higher precedence than AND (&&) and OR (||)
+// You can alter this using parens ()
 
 

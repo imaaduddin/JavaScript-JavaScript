@@ -9,4 +9,32 @@ let colors = ["red", "orange", "yellow", "blue", "purple", "green"];
 
 colors.push("gold"); // "gold" will be at the end of the array
 
-colors.pop() // will remove "gold" because that was added from the push method used above 
+colors.pop() // will remove "gold" from the end of the array as it was added with the method above 
+
+colors.unshift("silver"); // adds "silver" to the start of the array
+
+colors.shift(); // will remove first element in array so it will remove "silver" as it was added from the method above 
+
+// MORE METHODS!
+// concat - merge arrays 
+// includes - look for a value 
+// indexOf - just like str.indexOf
+// join - creates a string from array 
+// reverse - reverses an array 
+// slice - cop portion of an array 
+// splice - remove/replace elements 
+// sort - sorts an array 
+
+let fruits = ["apples", "oranges"];
+let veggies = ["carrots", "spinach"];
+fruits.concat(veggies); // combines both arrays 
+
+colors.includes("black"); // will give false because the colors array does not have "black"
+
+colors.indexOf("orange"); // tells you where "orange" is in the array
+
+colors.reverse(); // returns the array backwards 
+
+colors.join("-"); // separates whatever is in the array by "-"
+
+

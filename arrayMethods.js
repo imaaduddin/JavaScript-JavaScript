@@ -37,4 +37,15 @@ colors.reverse(); // returns the array backwards
 
 colors.join("-"); // separates whatever is in the array by "-"
 
+let animals = ["tiger", "lion", "lizard", "snake", "shark", "eagle", "bear"];
+// animals.slice(0, 3); // will return "tiger", "lion", "lizard"
+// animals.slice(2, 4); // will return "lizard", "snake"
 
+// splice(startIndex, deleteCount, itemToInsert)
+animals.splice(1, 0, "cheetah");
+console.log(animals);
+
+
+let ninja = ["Naruto", "Kiba", "Shino", "Neji", "Choji"];
+ninja.sort();
+console.log(ninja); // sorts in alphabetical order

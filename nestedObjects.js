@@ -1,6 +1,6 @@
 const student = {
-  firstname: "Naruto",
-  lastname: "Uzumaki",
+  firstName: "Naruto",
+  lastName: "Uzumaki",
   strengths: ["Stamina", "Determination"],
   exams: {
     academy: 45,

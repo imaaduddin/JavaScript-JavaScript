@@ -5,3 +5,7 @@
 // cannot contain spaces 
 // cannot contain the username 
 // If all requirements are met, return true, otherwise return false 
+
+function isValidPassword(password, username) {
+  let newPassWord = password.split(" ").join("");
+}

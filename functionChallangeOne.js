@@ -8,4 +8,12 @@
 
 function isValidPassword(password, username) {
   let newPassWord = password.split(" ").join("");
+
+  if (newPassWord !== username && newPassWord.length >= 8) {
+    return true;
+  } else {
+    return false;
+  }
 }
+
+console.log(isValidPassword("asdfgh", "asdfgh"));
